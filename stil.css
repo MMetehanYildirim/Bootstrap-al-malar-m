@@ -1,0 +1,446 @@
+body {
+	background-image:url("arkaplan.jpg");
+	background-size:cover;
+}
+
+.pitstop{
+	cursor: default;
+	color:#337ab7 !important;
+	margin-left: 21%;
+	margin-right: 10%;
+	font-family: 'Concert One', cursive;
+	font-size: 4em;
+}
+.pitstop:hover{
+	color:#337ab7;
+	text-decoration: none;
+}
+
+	.deneme{
+		background-color: rgba(69,93,122,0.7);
+		position: fixed;
+		width: 100%;
+		top:0;
+	}
+
+.Home{
+	margin-left: 5.5% !important;
+}
+
+.Home, .Rent, .Explore, .SpecialRequest, .GetListed{
+	margin-left: 1%;
+	color:white;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	transition:all 1s;
+	
+
+}
+
+#icon1{
+	transition:all 1s;
+}
+
+.Home:hover, .Rent:hover, .Explore:hover, .GetListed:hover, .SpecialRequest:hover, #icon1:hover{
+	color:white;
+	font-size: 1.5em;
+	
+
+}
+
+
+.GetListed{
+	background-color: transparent;
+	border:1px solid white;
+}
+#icon1{
+	margin-left: 1%;
+	color:white;
+}
+
+.pattisYazi p{
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#ustText1 {
+	margin-top: 10%;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	font-size: 0.75em;
+}
+#ustText2{
+	margin-top: 3%;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.ortaKatman{
+
+	margin-right: 1%;
+	position: absolute;
+	margin-top: 1.5%;	
+	margin-bottom: 1.5%;
+	background-color: white;
+	width: 930px;
+	height: 88px;
+	float: center;
+	margin-left: 1%;
+	border: 10px solid rgba(255, 255, 255, 0.5);
+	font-family: 'Arimo', sans-serif;
+}
+.disKatman{
+
+	margin-top: 3%;
+	margin-left: 18%;
+	float: center;
+	width: 960px;
+	height: 128px;
+	background-color: rgba(255,255,255, 0.5);
+	opacity: 50%;
+}
+
+.ortaKatman p{
+	font-weight: bold;
+	color: black;
+
+}
+#markaAlti{
+	margin-left: 24px;
+}
+.ortaKatman input{
+
+	color: black;
+	font-style: italic;
+	border-bottom:1px solid #cdd5e0;
+}
+
+#pickUpDate{
+	width: 130px;
+	border: none;
+}
+
+#Sehir{
+	width: 100px;
+	border:none;
+}
+
+.form1 i{
+	font-size: 20px;
+}
+#Sehir2{
+	width: 100px;
+	border:none;
+}
+
+#returnDate{
+width: 130px;
+border:none;
+}
+
+#Marka{
+	width: 132px;
+	border:none;
+}
+
+#sehirAlt{
+	margin-left: 24px;
+}
+.aracAlmaNoktası{
+	float: left;
+
+}
+
+
+.form2 i{
+	font-size: 20px;
+}
+
+.form3 i{
+	font-size: 20px;
+}
+
+.form4 i{
+	font-size: 20px;
+}
+
+
+.tarihSec{
+	float: left;
+}
+
+#dateAlti1{
+	margin-left: 24px;
+
+}
+
+.bolmeler{
+	margin-top: 0.5%;
+	background-color: white;
+	float: left;
+	border-right: #cdd5e0 solid 2px;
+	margin-left: 3px;
+	margin-right: 0px;
+}
+#sehirAlt2{
+	margin-left: 24px;
+}
+
+button{
+	margin-left: 3%;
+	border-radius: 4px;
+	margin-top: 0.5%;
+	width: 140px;
+	height: 40px;
+	background-color: #ff5c00;
+	color: white;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	border-color: transparent;
+}
+
+
+.altYazi{
+
+	margin-left: -7%;
+	color:white;
+}
+.altListe{
+	background-color: rgba(0,0,0,0.7);
+	cursor: pointer;
+	list-style-type: disc;
+	margin-left: 29%
+}
+
+li{
+
+	float: left;
+	margin-left: 3%; 
+}
+
+#altUst{
+	margin-right: 40%;
+	margin-left: 47%;
+	margin-top: 4%;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.7);
+	text-transform: uppercase;
+}
+
+#eleman{
+
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+}
+.altBolme{
+	margin-top: 12.4% !important;
+	height: 60px;
+	background-color: white;
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+
+.iletisim{
+	border-bottom: 1px solid grey;
+	margin-left: 285px;
+	margin-right: 215px;
+	padding-bottom: 17px;
+	padding-top: 6px;
+}
+
+
+.altBolme *{
+	margin-top: 1.5%;
+
+}
+
+
+#iconYani{
+
+	font-size: 15px !important;
+	font-weight: bold;
+	color:#cdcdcd;
+}
+
+#numara1, #numara2, #numara3{
+	font-size: 13px;
+	font-weight: bolder;
+	color: #182022;
+
+}
+
+#n1,#n2,#n3{
+	margin-left: 2%;
+	font-size: 12px;
+	color: #cdcdcd;
+}
+
+.disKatman2{
+	background-color: white!important;
+	width: auto;
+	height: 56px;
+
+}
+
+.altKatman1{
+	height: 64px;
+	border-right: 2px solid black;
+	padding-top: 8px;
+	float: left;
+	width: 705px;
+}
+
+.altKatman1 i{
+	margin-left: 40%;
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+.altKatman2{
+	margin-left: 2%;
+	float: left;
+	padding-top: 8px;
+
+}
+
+#ilk{
+	font-size: 15px;
+	font-weight: bolder;
+	margin-bottom: 2% !important;
+	color:#cdcdcd;
+}
+
+#sonrasi{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 6%;
+	color: #0f1719;
+}
+
+.altKatman2 i{
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+.altKatman2{
+	width: 600px;
+}
+
+#ilk2{
+	color:#cdcdcd;
+	margin-left: 2%;
+	font-size: 13px;
+	font-weight: bolder;
+	margin-bottom: 2% !important;
+}
+#ikinci2{
+	color:#0f1719;
+	margin-left: 6%;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+.yonlendirmeBolumu{
+	display: block;
+	background-color: white;
+	height: 40px;
+	padding-top: 8px;
+	width: 100%;
+}
+
+.yonlendirmeBolumu ul{
+	height: 10px;
+	list-style-type: disc;
+	color: #cecece;
+}
+
+
+
+.aciklamaBolumu{
+	background-color: white;
+	color:black;
+	padding-bottom: 3px;
+	padding-top: 12px;
+}
+
+
+
+.navigation{
+	color: black;
+	font-weight: bold;
+	float: left;
+}
+
+.listeGLB{
+	width: 800px;
+	margin-left: 3%;
+	float: left;
+}
+
+.listeSon a{
+	color:#cecece;
+}
+.listeSon li{
+	margin-left: 4%;
+}
+
+
+
+.aciklamaBolumu p{
+		border-top: 1px solid grey;
+		margin-left: 20%;
+		margin-right: 15%;
+		padding-top: 10px;
+}
+
+.TelifDiger{
+	background-color: white;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TelifDiger p{
+	margin-top: 4px;
+	float: left;
+}
+
+.son_sahneler{
+	float: left;
+}
+
+
+.bankaMarkalari{
+	float: left;
+}
+
+#selo1{
+	margin-left: 190px !important;
+}
+
+#selo,#selo1{
+	margin-top: 6px;
+	color:#dadada;
+}
+
+
+.navigasyonAlanDuzen{
+	margin-left: 20%;
+	padding-top: 11px;
+	border-top: 1px solid grey;
+	margin-right: 215px;
+}
+
+.TelifDuzen{
+	margin-left: 20%;
+	margin-right: 215px;
+	border-top: 1px solid grey;
+
+}
